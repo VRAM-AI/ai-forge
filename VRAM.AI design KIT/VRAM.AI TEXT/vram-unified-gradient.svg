@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+  <circle cx="125" cy="125" r="125" fill="black"/>
+  
+  <!-- Shadow filter -->
+  <defs>
+    <linearGradient id="unifiedLime" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c2ff00"/>
+      <stop offset="100%" style="stop-color:#66cc00"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Combined shape group -->
+  <g>
+    <!-- Main Rectangle -->
+    <rect x="89" y="53" width="72" height="144" rx="3" fill="url(#unifiedLime)"/>
+    
+    <!-- Smaller Side Rectangle -->
+    <rect x="77" y="74" width="14" height="101" rx="3" fill="url(#unifiedLime)"/>
+  </g>
+</svg>

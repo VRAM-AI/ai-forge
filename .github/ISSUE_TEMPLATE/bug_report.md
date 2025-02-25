@@ -1,27 +1,37 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ""
-labels: "bug"
-assignees: ""
+name: 🐛 Bug Report
+about: Create a report to help improve VRAM AI
+title: '[BUG] '
+labels: 'bug'
+assignees: ''
 ---
 
-**Describe the bug**
+<div align="center">
+  <img src="../../VRAM.AI design KIT/VRAM.AI TEXT/vram-unified-gradient.svg" alt="VRAM AI Logo" width="300"/>
+</div>
 
-<!-- A clear and concise description of what the bug is. -->
+## 🐛 Bug Description
+<!-- A clear and concise description of the bug -->
 
-**To Reproduce**
+## 📝 Steps to Reproduce
+1.
+2.
+3.
 
-<!-- Steps to reproduce the behavior. -->
+## 🔍 Expected Behavior
+<!-- What should have happened? -->
 
-**Expected behavior**
+## 📸 Screenshots/Logs
+<!-- If applicable, add screenshots or logs to help explain your problem -->
 
-<!-- A clear and concise description of what you expected to happen. -->
+## 🔧 Environment
+- Platform: [e.g., SUI Testnet]
+- Browser: [e.g., Chrome 120]
+- VRAM AI Version: [e.g., Testnet v0.1]
+- Wallet: [e.g., Sui Wallet]
 
-**Screenshots**
+## 💻 Technical Details
+<!-- Any specific technical details that might help diagnose the issue -->
 
-<!-- If applicable, add screenshots to help explain your problem. -->
-
-**Additional context**
-
-<!-- Add any other context about the problem here. -->
+## 📱 Additional Context
+<!-- Add any other context about the problem here -->

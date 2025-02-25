@@ -1,23 +1,41 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ""
-labels: "enhancement"
-assignees: ""
+name: 💡 Feature Request
+about: Suggest an idea for VRAM AI
+title: '[FEATURE] '
+labels: 'enhancement'
+assignees: ''
 ---
 
-**Is your feature request related to a problem? Please describe.**
+<div align="center">
+  <img src="../../VRAM.AI design KIT/VRAM.AI TEXT/vram-unified-gradient.svg" alt="VRAM AI Logo" width="300"/>
+</div>
 
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
+## 💡 Feature Description
+<!-- A clear and concise description of the feature you'd like to see -->
 
-**Describe the solution you'd like**
+## 🎯 Problem Statement
+<!-- What problem does this feature solve? -->
 
-<!-- A clear and concise description of what you want to happen. -->
+## 📋 Proposed Solution
+<!-- How do you envision this feature working? -->
 
-**Describe alternatives you've considered**
+## 🔄 Alternative Solutions
+<!-- Have you considered any alternative solutions? -->
 
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
+## 🌟 Benefits
+<!-- What are the benefits of implementing this feature? -->
 
-**Additional context**
+## 🎮 Use Cases
+<!-- Describe specific use cases for this feature -->
 
-<!-- Add any other context or screenshots about the feature request here. -->
+## 📊 Implementation Impact
+<!-- How might this affect existing functionality? -->
+
+- [ ] AI Agents
+- [ ] Smart Contracts
+- [ ] Token Economics
+- [ ] User Interface
+- [ ] Other: ______
+
+## 📝 Additional Context
+<!-- Add any other context or screenshots about the feature request here -->

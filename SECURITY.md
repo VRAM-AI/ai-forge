@@ -1,125 +1,148 @@
-# Security Policy
+# VRAM AI Security Policy
+
+<div align="center">
+  <img src="./VRAM.AI design KIT/VRAM.AI TEXT/vram-unified-gradient.svg" alt="VRAM AI Logo" width="300"/>
+
+  <h3>Securing the Future of Decentralized AI</h3>
+</div>
 
 ## Supported Versions
 
-Given the early stage of the project, we currently only support the latest version with security updates:
+Currently in testnet phase, we support:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.0.x   | :white_check_mark: |
-| < 0.0.1 | :x:                |
+| Testnet | :white_check_mark: |
+| < Alpha | :x:                |
 
 ## Reporting a Vulnerability
 
-We take the security of Eliza seriously. If you believe you have found a security vulnerability, please report it to us following these steps:
+### Critical Security Issues
 
-### Private Reporting Process
+For critical security vulnerabilities, especially those related to:
+- Smart Contracts
+- Token Economics
+- AI Agent Security
+- User Funds
 
-1. **DO NOT** create a public GitHub issue for the vulnerability
-2. Send an email to security@eliza.builders with:
-    - A detailed description of the vulnerability
-    - Steps to reproduce the issue
-    - Potential impact of the vulnerability
-    - Any possible mitigations you've identified
+Please contact us immediately at:
+- Email: team@vram.ai
+- Telegram: [@VRAM_AI_Security](https://t.me/VRAM_AI_Security)
 
-### What to Expect
+### Standard Reporting Process
 
-- **Initial Response**: Within 48 hours, you will receive an acknowledgment of your report
-- **Updates**: We will provide updates every 5 business days about the progress
-- **Resolution Timeline**: We aim to resolve critical issues within 15 days
-- **Disclosure**: We will coordinate with you on the public disclosure timing
+1. **DO NOT** create a public issue
+2. Submit your report through our [Security Form](https://vram.ai/security) including:
+   - Detailed description
+   - Steps to reproduce
+   - Potential impact
+   - Suggested fixes (if any)
 
-## Security Best Practices
+## Security Measures
 
-### For Contributors
+### Smart Contract Security
 
-1. **API Keys and Secrets**
+1. **Auditing**
+   - Regular third-party audits
+   - Continuous monitoring
+   - Automated testing
 
-    - Never commit API keys, passwords, or other secrets to the repository
-    - Use environment variables as described in our secrets management guide
-    - Rotate any accidentally exposed credentials immediately
+2. **Token Security**
+   - Bonding curve protection
+   - Liquidity safety mechanisms
+   - Anti-manipulation features
 
-2. **Dependencies**
+### AI Agent Security
 
-    - Keep all dependencies up to date
-    - Review security advisories for dependencies regularly
-    - Use `pnpm audit` to check for known vulnerabilities
+1. **Access Control**
+   - Role-based permissions
+   - API key management
+   - Rate limiting
 
-3. **Code Review**
-    - All code changes must go through pull request review
-    - Security-sensitive changes require additional review
-    - Enable branch protection on main branches
+2. **Data Protection**
+   - Encrypted storage
+   - Secure communication
+   - Privacy preservation
+
+## Best Practices
+
+### For Developers
+
+1. **Smart Contract Development**
+   - Follow SUI Move security guidelines
+   - Implement comprehensive testing
+   - Use verified libraries
+   - Document security considerations
+
+2. **AI Agent Development**
+   - Implement proper authentication
+   - Validate inputs thoroughly
+   - Monitor resource usage
+   - Regular security reviews
+
+3. **Configuration Security**
+   - Use environment variables
+   - Secure key management
+   - Regular credential rotation
 
 ### For Users
 
-1. **Environment Setup**
+1. **Wallet Security**
+   - Use hardware wallets when possible
+   - Never share private keys
+   - Enable multi-factor authentication
 
-    - Follow our [secrets management guide](docs/guides/secrets-management.md) for secure configuration
-    - Use separate API keys for development and production
-    - Regularly rotate credentials
+2. **Platform Usage**
+   - Use strong passwords
+   - Monitor transactions
+   - Report suspicious activity
 
-2. **Model Provider Security**
+## Security Roadmap
 
-    - Use appropriate rate limiting for API calls
-    - Monitor usage patterns for unusual activity
-    - Implement proper authentication for exposed endpoints
+### Q2 2024 (Testnet)
+- Smart contract audits
+- Security documentation
+- Bug bounty program launch
 
-3. **Platform Integration**
-    - Use separate bot tokens for different environments
-    - Implement proper permission scoping for platform APIs
-    - Regular audit of platform access and permissions
+### Q3 2024
+- Enhanced monitoring systems
+- Automated security scanning
+- Advanced fraud detection
 
-## Security Features
+## Vulnerability Disclosure
 
-### Current Implementation
+We follow responsible disclosure:
+1. Report submission
+2. Acknowledgment (24h)
+3. Investigation (72h)
+4. Fix development
+5. Public disclosure
 
-- Environment variable based secrets management
-- Type-safe API implementations
-- Automated dependency updates via Renovate
-- Continuous Integration security checks
+## Bug Bounty Program
 
-### Planned Improvements
+Coming soon! Will include:
+- Smart contract vulnerabilities
+- AI agent security issues
+- Platform security concerns
+- Integration vulnerabilities
 
-1. **Q4 2024**
+## Contact Information
 
-    - Automated security scanning in CI pipeline
-    - Enhanced rate limiting implementation
-    - Improved audit logging
+- Security Team: team@vram.ai
+- Telegram: [@VRAM_AI](https://t.me/VRAM_AI)
+- Forum: [VRAM.ai Forum](https://forum.vram.ai)
 
-2. **Q1 2025**
-    - Security-focused documentation improvements
-    - Enhanced platform permission management
-    - Automated vulnerability scanning
+## Acknowledgments
 
-## Vulnerability Disclosure Policy
+We maintain a hall of fame for security researchers who help improve VRAM AI's security. Contributors will be:
+- Listed on our security page
+- Eligible for rewards
+- Recognized in our community
 
-We follow a coordinated disclosure process:
+---
 
-1. Reporter submits vulnerability details
-2. Our team validates and assesses the report
-3. We develop and test a fix
-4. Fix is deployed to supported versions
-5. Public disclosure after 30 days or by mutual agreement
+<div align="center">
+  <img src="./VRAM.AI design KIT/VRAM.AI TEXT/VRAM Green.svg" alt="VRAM AI Green Logo" width="200"/>
 
-## Recognition
-
-We believe in recognizing security researchers who help improve our security. Contributors who report valid security issues will be:
-
-- Credited in our security acknowledgments (unless they wish to remain anonymous)
-- Added to our security hall of fame
-- Considered for our bug bounty program (coming soon)
-
-## License Considerations
-
-As an MIT licensed project, users should understand:
-
-- The software is provided "as is"
-- No warranty is provided
-- Users are responsible for their own security implementations
-- Contributors grant perpetual license to their contributions
-
-## Contact
-
-- Security Issues: security@eliza.builders
-- General Questions: Join our [Discord](https://discord.gg/ai16z)
-- Updates: Follow our [security advisory page](https://github.com/elizaos/eliza/security/advisories)
+  <p><i>Securing the future of decentralized AI, together</i></p>
+</div>
