@@ -13,6 +13,7 @@ If you have forked and hosted a VRAM agent, add your information via a Pull Requ
 | GitHub Creator | Repository                                               | Deployed URL          | Agent Type    | Status  |
 | -------------- | -------------------------------------------------------- | --------------------- | ------------- | ------- |
 | @Sayskh        | [MyAgent](https://github.com/Sayskh/ai-forge)            | https://testnet.vram.ai/trading-view/0x1dc1f84b69fd806437083c84dd928aafe4a60220bc9c4eba44df48472b3ede65  | Trading Bot   | 🟢 Live |
+| @Preda-1       | [MyAgent](https://github.com/Preda-1/ai-forge)           | https://testnet.vram.ai/trading-view/0xb8d9655a969721fe2945b95fa84f2452ea1466bccdd5f4920877dd1a65384c33  | personal assistant   | 🟢 Live |
 
 ### 📊 Available Statuses
 
