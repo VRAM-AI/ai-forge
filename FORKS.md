@@ -14,7 +14,7 @@ If you have forked and hosted a VRAM agent, add your information via a Pull Requ
 | -------------- | -------------------------------------------------------- | --------------------- | ------------- | ------- |
 | @Sayskh        | [MyAgent](https://github.com/Sayskh/ai-forge)            | https://testnet.vram.ai/trading-view/0x1dc1f84b69fd806437083c84dd928aafe4a60220bc9c4eba44df48472b3ede65  | Trading Bot   | 🟢 Live |
 | @Li-iOS        | [MyAgent](https://github.com/Li-iOS/ai-forge)            | https://testnet.vram.ai/trading-view/0xb9ab397c6a9f0a4a09433ed786f0d0785624d01c79257638677497ecc6b068c3  | Trading Bot   | 🟢 Live |
-
+ 
 ### 📊 Available Statuses
 
 - 🟢 Live (Operational)
